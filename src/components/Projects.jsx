@@ -23,12 +23,8 @@ export default function Projects() {
                     </div>
                 </div>
                 <div id="about" className="px-6 py-15 text-sm sm:text-base md:text-md lg:text-lg xl:text-xl border-b border-gray-300 bg-[radial-gradient(circle,theme(colors.gray.300)_1px,transparent_1px)] [background-size:20px_20px]">
-                    <div className="container mx-auto flex items-center justify-center gap-2 flex-wrap lg:flex-nowrap">
-                        <div className="bg-white p-3 border border-gray-300 rounded-lg w-full">1</div>
-                        <div className="bg-white p-3 border border-gray-300 rounded-lg w-full">1</div>
-                        <div className="bg-white p-3 border border-gray-300 rounded-lg w-full">1</div>
-                        <div className="bg-white p-3 border border-gray-300 rounded-lg w-full">1</div>
-                        <div className="bg-white p-3 border border-gray-300 rounded-lg w-full">1</div>
+                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        
                     </div>
                 </div>
             </div>
