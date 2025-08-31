@@ -52,7 +52,7 @@ export default function Navbar() {
                             </li>
                         ))}
                     </ul>
-                    <button className="px-3 py-2 bg-blue-400 text-white font-semibold rounded-lg lg:flex items-center gap-2 hover:bg-blue-500 focus:bg-blue-500 hidden">
+                    <button className="px-3 py-3 bg-blue-400 text-white font-semibold rounded-lg lg:flex items-center gap-2 hover:bg-blue-500 focus:bg-blue-500 hidden">
                         Github Profile 
                         <FaGithub/>
                     </button>
