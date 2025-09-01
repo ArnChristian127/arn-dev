@@ -10,8 +10,8 @@ const EducationList = [
         name: "Roman Ozaeta Memorial School",
         year: "2012 - 2017",
         desc: "Kinder and Elementary School Graduated.",
-        src: "/assets/education/1.png",
-        alt: "HFM"
+        src: "/assets/education/2.png",
+        alt: "ROMS"
     },
 ]
 export default EducationList;

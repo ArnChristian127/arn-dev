@@ -14,11 +14,11 @@ export default function About() {
                                     words={['Developer', 'Programer', 'Gamer']}
                                     loop={true}
                                     cursor
-                                    cursorStyle='|'
+                                    cursorStyle='{}'
                                     typeSpeed={70}
                                     deleteSpeed={50}
                                     delaySpeed={2000}
-                                />{'{}'}
+                                />
                             </span>
                         </h1>
                         <p className="mt-3">

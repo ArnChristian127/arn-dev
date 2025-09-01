@@ -13,7 +13,7 @@ export default function Navbar() {
         if (!isOpen) {
             setOpen(true);
         } else {
-             animate(animateHook.current, {
+            animate(animateHook.current, {
                 translateY: [0, '-100%'],
                 opacity: [1, 0],
                 duration: 300,
@@ -42,7 +42,7 @@ export default function Navbar() {
         <> 
             <nav className={`${isOpen ? 'lg:border-b' : 'border-b'} border-gray-300 px-6 py-4 text-gray-500 text-sm sm:text-base md:text-md lg:text-lg xl:text-xl fixed w-full top-0 z-50 bg-white`}>
                 <div className="container mx-auto flex justify-between items-center">
-                    <h1 className="font-semibold text-2xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-600">
+                    <h1 className="font-semibold text-2xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-600 select-none">
                         Arn<span className="text-blue-400">Dev</span>
                     </h1>
                     <ul className="hidden items-center gap-5 font-semibold lg:flex">
@@ -52,7 +52,7 @@ export default function Navbar() {
                             </li>
                         ))}
                     </ul>
-                    <button className="px-3 py-3 bg-blue-400 text-white font-semibold rounded-lg lg:flex items-center gap-2 hover:bg-blue-500 focus:bg-blue-500 hidden">
+                    <button className="px-3 py-3 bg-blue-400 text-white font-semibold rounded-lg lg:flex items-center gap-2 hover:bg-blue-500 focus:bg-blue-500 hidden" onClick={() => (window.location.href = 'https://github.com/ArnChristian127')}>
                         Github Profile 
                         <FaGithub/>
                     </button>
@@ -71,7 +71,7 @@ export default function Navbar() {
                                 </li>
                             ))}
                         </ul>
-                        <button className="px-3 py-2 bg-blue-400 text-white font-semibold rounded-lg flex items-center gap-2 hover:bg-blue-500 focus:bg-blue-500 mt-5">
+                        <button className="px-3 py-2 bg-blue-400 text-white font-semibold rounded-lg flex items-center gap-2 hover:bg-blue-500 focus:bg-blue-500 mt-5" onClick={() => (window.location.href = 'https://github.com/ArnChristian127')}>
                             Github Profile 
                             <FaGithub/>
                         </button>

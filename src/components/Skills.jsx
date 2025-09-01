@@ -18,10 +18,7 @@ export default function Skills() {
                             </h1>
                             <FaCode className="inline-block align-middle ml-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-blue-400"/>
                         </div>
-                        <p className="mt-3">
-                            I have acquired a diverse set of skills through my college and senior highschool education, particularly in the field of technology.
-                        </p>
-                        <p>
+                        <p className='mt-3'>
                             Throughout my academic journey, I have gained knowledge and hands-on experience in various areas.
                         </p>
                         <p>
