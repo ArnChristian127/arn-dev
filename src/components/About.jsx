@@ -18,7 +18,7 @@ export default function About() {
                                     typeSpeed={70}
                                     deleteSpeed={50}
                                     delaySpeed={2000}
-                                />
+                                />{'{}'}
                             </span>
                         </h1>
                         <p className="mt-3">
