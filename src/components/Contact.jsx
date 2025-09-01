@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { FaCheckCircle } from "react-icons/fa";
 import { animate } from 'animejs';
+import { MdEmail } from "react-icons/md";
 import emailjs from 'emailjs-com';
 export default function Contact() {
     const [isModal, setModal] = useState(false);
@@ -49,9 +50,10 @@ export default function Contact() {
                             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold inline-block align-middle">
                                 Contacts
                             </h1>
+                            <MdEmail className="inline-block align-middle ml-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl"/>
                         </div>
                         <p className="mt-3">
-                            Here are my certificates that I received.
+                            Reach me by fill out this requirement.
                         </p>
                     </div>
                 </div>
@@ -59,7 +61,7 @@ export default function Contact() {
             <div className="px-6 py-15 text-sm sm:text-base md:text-md lg:text-lg xl:text-xl border-b border-gray-300 bg-[radial-gradient(circle,theme(colors.gray.300)_1px,transparent_1px)] [background-size:20px_20px] text-gray-600">
                 <div className="container mx-auto lg:8 flex justify-center items-center">
                     <form className="border border-gray-300 p-4 bg-white w-150 rounded-lg" onSubmit={emailHandler}>
-                        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">Email Me</h1>
+                        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">Email Me@</h1>
                         <input
                             className="mt-3 outline-none border border-gray-300 w-full p-2 rounded-xl px-3"
                             placeholder="Your Name"
